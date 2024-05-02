@@ -1,0 +1,34 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    gap: 700px;
+    padding: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
