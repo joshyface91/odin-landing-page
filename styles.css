@@ -8,6 +8,16 @@ ul {
     list-style-type: none;
 }
 
+.action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 90px;
+    font-weight: bold;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -16,6 +26,7 @@ ul {
     font-size: 18px;
     gap: 700px;
     padding: 0;
+    margin: 0;
 }
 
 .links {
@@ -28,7 +39,61 @@ ul {
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bold;
+    font-weight: 900;
     border: none;
     outline: none;
+}
+
+.greeting {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 60px 0px 90px 0px;
+    margin: 0;
+    gap: 100px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 425px;
+}
+
+.info h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    width: 200px;
+    height: 200px;
+}
+
+.cards .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#subhead {
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.image-frame {
+    width: 750px;
+    height: 275px;
+}
+
+#main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
 }
