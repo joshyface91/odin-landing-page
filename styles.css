@@ -119,3 +119,24 @@ ul {
     gap: 20px;
     text-align: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px 0px 150px 0px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 830px;
+    padding: 0px 0px 0px 530px;
+}
+
+.quote p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    padding: 0px 550px 0px 0px;
+}
