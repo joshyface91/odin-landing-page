@@ -140,3 +140,43 @@ blockquote {
     text-align: right;
     padding: 0px 550px 0px 0px;
 }
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    width: 1000px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.action-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.action-content p, h3 {
+    margin: 3px;
+}
+
+#action-bottom {
+    border: solid 1px #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
